@@ -5,7 +5,7 @@ a { color: #2059a0; text-underline-offset: .2em; overflow-wrap: anywhere; }
 a:hover { color: #123963; }
 a:focus-visible { outline: 3px solid #ab3c39; outline-offset: 5px; border-radius: 2px; }
 header, main, footer { max-width: 800px; margin: auto; padding: 28px; }
-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #d9e0e9; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #d9e0e9; }
 .brand { display: inline-flex; align-items: center; gap: 12px; color: #17243b; text-decoration: none; letter-spacing: .06em; font-size: 14px; font-weight: 700; }
 .brand img { display: block; flex-shrink: 0; border-radius: 10px; }
 .brand strong { color: #a52e32; }
